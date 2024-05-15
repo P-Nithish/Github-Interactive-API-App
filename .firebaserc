@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "smpl-2cb5b": {
+      "hosting": {
+        "angular": [
+          "smpl-2cb5b"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "smpl-2cb5b"
+  }
+}

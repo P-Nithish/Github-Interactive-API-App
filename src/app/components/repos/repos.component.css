@@ -1,0 +1,28 @@
+.repo-list {
+  margin-top: 20px;
+  overflow-y: auto;
+  max-height: 550px;
+}
+
+.repo-list ul {
+  list-style-type: none;
+}
+
+.repo-list li {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 500px;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.repo-list li a {
+  color: #222222;
+  text-decoration: none;
+}
+
+.repo-list li:hover {
+  background-color: #c0c0c0;
+}
