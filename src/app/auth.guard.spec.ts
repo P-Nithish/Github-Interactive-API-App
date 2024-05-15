@@ -43,7 +43,7 @@ describe('AuthGuard', () => {
   });
 
   it('should navigate to signin if not authenticated', (done) => {
-    fireAuthStub.setAuthState(null); // Simulate not authenticated
+    fireAuthStub.setAuthState(null); 
 
     guard.canActivate().subscribe((result) => {
       expect(result).toBeFalse();
@@ -53,7 +53,7 @@ describe('AuthGuard', () => {
   });
 
   it('should allow access if authenticated', (done) => {
-    fireAuthStub.setAuthState({ uid: 'testUser' }); // Simulate authenticated
+    fireAuthStub.setAuthState({ uid: 'testUser' });
 
     guard.canActivate().subscribe((result) => {
       expect(result).toBeTrue();
