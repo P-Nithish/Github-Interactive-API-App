@@ -4,7 +4,7 @@ import { SigninComponent } from './pages/signin/signin.component';
 import { SignupComponent } from './pages/signup/signup.component';
 import { HomeComponent } from './pages/home/home.component';
 import { AuthGuard } from './auth.guard';
-import { PagenotfoundComponent } from './pages/pagenotfound/pagenotfound.component'; // Adjust the path as necessary
+import { PagenotfoundComponent } from './pages/pagenotfound/pagenotfound.component';
 
 const routes: Routes = [
   {path: '', redirectTo: 'signin', pathMatch: 'full'},
